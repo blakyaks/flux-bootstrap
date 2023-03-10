@@ -3,7 +3,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 3.46.0"
+      version = "~> 3.47.0"
     }
     flux = {
       source  = "fluxcd/flux"
@@ -11,11 +11,11 @@ terraform {
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = ">= 2.18.0"
+      version = "~> 2.18.0"
     }
     external = {
       source  = "hashicorp/external"
-      version = ">= 2.3.1"
+      version = "~> 2.3.1"
     }
   }
 }

@@ -53,7 +53,7 @@ variable "flux_properties" {
     network_policy    = optional(bool, true)
     registry          = optional(string, "ghcr.io/fluxcd")
     toleration_keys   = optional(list(string), [])
-    version           = optional(string, "v0.40.2")
+    version           = optional(string, "v0.41.0")
   })
   default = {}
 }
